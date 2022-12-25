@@ -199,7 +199,7 @@ main {
     margin-left: 28%;
 }
 .main_side1{
-    max-width:600px ;
+    min-width:600px;
     height: 100%;
     border-right: solid 1px rgb(239, 243, 244);
     display: flex;
@@ -368,6 +368,11 @@ main {
     color: #536471;
     margin-right: 12px;
     display: flex;
+}
+.prof img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 }
 .overlay {
     width: 48px;
